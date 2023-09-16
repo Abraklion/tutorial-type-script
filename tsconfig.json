@@ -13,7 +13,8 @@
     "src/lesson2.ts",
     "src/lesson3.ts",
     "src/lesson4.ts",
-    "src/lesson5.ts"
+    "src/lesson5.ts",
+    "src/lesson6.ts",
   ],
   "exclude": [ // -> массив какие файлы нужно исключить из компилирования
     // если указама директива files, директива exclude будет проигнорировани

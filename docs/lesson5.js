@@ -19,15 +19,15 @@ console.log(action(10, 10));
 action = f2;
 console.log(action(10, 10));
 // Тип функции 2
+function f4(x, y) {
+    return "".concat(x, " + ").concat(y, " = ").concat(x + y);
+}
 function f3(a, b, callback) {
     return callback(a, b);
 }
 console.log(f3(100, 10, function (x, y) {
     return "".concat(x, " + ").concat(y, " = ").concat(x + y);
 }));
-function f4(x, y) {
-    return "".concat(x, " + ").concat(y, " = ").concat(x + y);
-}
 console.log(f3(100, 100, f4));
 // Стрелочные функции
 var f5 = function (a, b) {
