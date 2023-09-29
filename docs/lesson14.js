@@ -14,4 +14,4 @@ var User = /** @class */ (function () {
 window.onload = function () {
     User.printGlobalVar();
 };
-//# sourceMappingURL=output.js.map
+//# sourceMappingURL=lesson14.js.map

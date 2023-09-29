@@ -3,11 +3,11 @@
     "outDir": "docs",        // -> куда выгружать скомпелируемые файлы
     "sourceMap": true,       // -> исходные карты
     "noImplicitAny": false,  // -> можно ли не указывать тип
-    "module": "AMD",    // -> устанавливает систему модулей для программы
+    "module": "CommonJS",    // -> устанавливает систему модулей для программы
     "target": "es5",         // -> стандарт компелируемого файла
     "allowJs": true,         // -> разрешает импортировать файлы JavaScript внутри вашего проекта
     "lib": ["es5", "es6", "dom"],
-    "outFile": "docs/output.js"   // -> обьединяет все файлы в один, работает только с настройкой "module": "AMD || System"
+//    "outFile": "docs/output.js"   // -> обьединяет все файлы в один, работает только с настройкой "module": "AMD || System"
   },
   "files": [ // -> массив какие файлы нужно скампилировать
 //    "src/app.ts",
@@ -22,8 +22,9 @@
 //    "src/lesson10/someModule.ts",
 //    "src/lesson10/app.ts"
 //    "src/lesson11.ts"
-    "src/lesson13/app.ts",
-    "src/lesson13/pages.ts"
+//    "src/lesson13/app.ts",
+//    "src/lesson13/pages.ts"
+    "src/lesson14.ts",
   ],
   "exclude": [ // -> массив какие файлы нужно исключить из компилирования
     // если указама директива files, директива exclude будет проигнорировани

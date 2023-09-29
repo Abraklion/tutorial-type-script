@@ -7,10 +7,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="docs/output.js"></script>
+  <script defer src="docs/output.js"></script>
 </head>
 <body>
   <h1>Type Script!</h1>
+
+  <script>
+    let someVar = "value 1";
+
+    function printSomeVar() {
+      console.log('Hello var - ' + someVar);
+    }
+
+    var users = [
+      {
+        id : 1,
+        name: 'Ben'
+      },
+      {
+        id : 2,
+        name: 'Bob'
+      },
+      {
+        id : 3,
+        name: 'John'
+      },
+    ];
+  </script>
 </body>
 </html>
